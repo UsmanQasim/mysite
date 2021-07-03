@@ -1,0 +1,27 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: black;
+  height: 65px;
+  width: 100vw;
+}
+.navBar2 {
+  transition: 0.5s ease-in-out;
+  background-color: white;
+  .btn {
+    background-color: black;
+    color: white;
+  }
+}
+.navbar_md {
+  width: 100vw;
+}
+.navbar_sm {
+  width: 100vw;
+}
